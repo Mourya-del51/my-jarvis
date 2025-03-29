@@ -111,16 +111,16 @@ def main_process():
              webbrowser.open("https://www.google.com/search?q="+request)
 
         elif "send whatsapp" in request:
-             pwk.sendwhatmsg("+8889240248", "Hi, how are you", 9, 52,30)
+             pwk.sendwhatmsg("+888924xxxx", "Hi, how are you", 9, 52,30)
              speak("massage sent")
 
         # elif "send email" in request:
-        #      pwk.send_mail("ashishmourya9755@gmail.com", user_config.gamil_password, "hello", "hello, how are you", "ashishmourya6263@gmail.com")
+        #      pwk.send_mail("ashishmourya88xx@gmail.com", user_config.gamil_password, "hello", "hello, how are you", "ashishmourya6xx3@gmail.com")
         #      speak("email sent")
         elif "send email" in request:
              s = smtplib.SMTP("smtp.gamil.com",587)
              s.starttls()
-             s.login("ashishmourya6263@gmail.com",user_config.gmail_password)
+             s.login("ashishmourya6xx3@gmail.com",user_config.gmail_password)
              message ="""
                 hello 
                 |
@@ -130,7 +130,7 @@ def main_process():
                 thankyou for understanding me:
 
                 """
-             s.sendmail("ashishmourya6263@gmail.com","ashishmourya9755@gmail.com", message)
+             s.sendmail("ashishmourya6xx3@gmail.com","ashishmourya9xx5@gmail.com", message)
              s.quit()
              speak("sent email successfully :")
 
